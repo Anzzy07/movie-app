@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Navigate } from "react-router-dom";
 
 import { MovieCard } from "../component/MovieCard";
 import "../css/Home.css";
@@ -25,6 +26,10 @@ export const Homepage = () => {
 
     loadPopularMovies();
   }, []);
+
+  if (localStorage.getItem("guest_session_id") === null) {
+    return <Navigate to="/login" />;
+  }
 
   return (
     <div className="home">

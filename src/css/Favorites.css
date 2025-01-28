@@ -24,11 +24,11 @@
 .favorites-empty h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
-  color: wheat;
+  color: white;
 }
 
 .favorites-empty p {
-  color: white;
+  color: gainsboro;
   font-size: 1.2rem;
   line-height: 1.6;
 }
