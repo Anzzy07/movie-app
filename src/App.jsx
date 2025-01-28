@@ -3,6 +3,7 @@ import { Homepage } from "./pages/Homepage";
 import { Favorites } from "./pages/Favorites";
 import { Navbar } from "./component/Navbar";
 import { MovieProvider } from "./context/SavedMovie.context";
+import { Login } from "./pages/Login";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </MovieProvider>
