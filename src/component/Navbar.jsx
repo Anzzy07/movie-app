@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { IoSearch } from "react-icons/io5";
 
 import Logo from "../assets/logo.jpg";
 import "../css/Navbar.css";
@@ -23,6 +24,9 @@ export const Navbar = () => {
       <div className="navbar-links">
         <Link to="/" className="nav-link">
           Home
+        </Link>
+        <Link to="/search" className="nav-link">
+          <IoSearch />
         </Link>
         <Link to="/favorites" className="nav-link">
           Watchlist

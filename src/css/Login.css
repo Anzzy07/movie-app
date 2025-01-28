@@ -32,7 +32,7 @@
 }
 
 .btn {
-  background-color: #6a5acd;
+  background-color: #35c59c;
   color: #fff;
   font-size: 1.2rem;
   padding: 0.8rem 2.5rem;
@@ -40,13 +40,13 @@
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0px 4px 15px rgba(106, 90, 205, 0.4);
+  box-shadow: 0px 4px 15px rgba(143, 243, 233, 0.4);
 }
 
 .btn:hover {
-  background-color: #8a2be2;
+  background-color: #28e4b8;
   transform: translateY(-3px);
-  box-shadow: 0px 6px 20px rgba(138, 43, 226, 0.4);
+  box-shadow: 0px 6px 20px rgba(27, 121, 79, 0.4);
 }
 
 .btn:active {
